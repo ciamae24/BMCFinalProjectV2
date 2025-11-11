@@ -25,22 +25,22 @@ class DefaultFirebaseOptions {
       case TargetPlatform.iOS:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for ios - '
-              'you can reconfigure this by running the FlutterFire CLI again.',
+          'you can reconfigure this by running the FlutterFire CLI again.',
         );
       case TargetPlatform.macOS:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for macos - '
-              'you can reconfigure this by running the FlutterFire CLI again.',
+          'you can reconfigure this by running the FlutterFire CLI again.',
         );
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '
-              'you can reconfigure this by running the FlutterFire CLI again.',
+          'you can reconfigure this by running the FlutterFire CLI again.',
         );
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
-              'you can reconfigure this by running the FlutterFire CLI again.',
+          'you can reconfigure this by running the FlutterFire CLI again.',
         );
       default:
         throw UnsupportedError(
@@ -50,19 +50,20 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyClOcmv7NnzdNb1gtEImAkbziZxLJIfn5g',
-    appId: '1:290945015263:web:f0b695ac32bd9af378786a',
-    messagingSenderId: '290945015263',
-    projectId: 'my-ecommerce-app-305-71864',
-    authDomain: 'my-ecommerce-app-305-71864.firebaseapp.com',
-    storageBucket: 'my-ecommerce-app-305-71864.firebasestorage.app',
+    apiKey: 'AIzaSyCXbL1MrQMYOhpoq3oIILbSoGNrkKmMxz4',
+    appId: '1:526664109703:web:e1ade5adf5f57bfb907222',
+    messagingSenderId: '526664109703',
+    projectId: 'derama-flutter',
+    authDomain: 'derama-flutter.firebaseapp.com',
+    storageBucket: 'derama-flutter.firebasestorage.app',
+    measurementId: 'G-W5TMD07T64',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyC9v4e5fctAkux2V5QIEbh6BEYm6sC7fvg',
-    appId: '1:290945015263:android:737f8dcab25dcdeb78786a',
-    messagingSenderId: '290945015263',
-    projectId: 'my-ecommerce-app-305-71864',
-    storageBucket: 'my-ecommerce-app-305-71864.firebasestorage.app',
+    apiKey: 'AIzaSyDHXciWU4hK1ysUbpVrd-Igo8ln3Hjty_U',
+    appId: '1:526664109703:android:316e6521fbd1bb34907222',
+    messagingSenderId: '526664109703',
+    projectId: 'derama-flutter',
+    storageBucket: 'derama-flutter.firebasestorage.app',
   );
 }
